@@ -1,2 +1,2 @@
 #!/bin/bash
-haed -n+3 iacta
+haed -n 3 iacta
