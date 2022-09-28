@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -empty -type f,d printf "\n"
+ find . -empty -type f,d | tr "/" "\n"
