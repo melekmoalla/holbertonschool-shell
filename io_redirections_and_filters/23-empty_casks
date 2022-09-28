@@ -1,2 +1,2 @@
 #!/bin/bash
- find . -empty -type f,d | tr "/" "\n"
+ find . -empty  -not -name "." | tr "/" "\n"

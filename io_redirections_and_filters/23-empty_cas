@@ -1,0 +1,2 @@
+#!/bin/bash
+find ls -laR -type -empty  f,d | cut -d "\" -f 9  
