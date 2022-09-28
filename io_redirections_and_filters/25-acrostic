@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -Eo '^[^ ]+' file
+cut -d' ' -f1 file
