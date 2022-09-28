@@ -1,2 +1,2 @@
 #!/bin/bash
-find ls -laR -type -empty  f,d | cut -d " " -f 9  
+ls -laR |find -empty -type f,d | cut -d " " -f 9
