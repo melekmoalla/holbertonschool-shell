@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "{a..z}{a..z} -not echo {o}{0}" | tr "\" "\n"
+echo {a..z}{a..z} -not echo {o}{0}) | tr "\" "\n"
