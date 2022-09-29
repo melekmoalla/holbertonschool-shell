@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n *
+awk '{print $1}' *
