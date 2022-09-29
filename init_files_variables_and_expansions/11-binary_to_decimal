@@ -1,2 +1,2 @@
 #!/bin/bash
-hex=$(echo "obase=10;ibase=2;$binary")
+echo "$((2#101010101))"
