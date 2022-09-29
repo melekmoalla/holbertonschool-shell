@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} -not {o}{o} | tr " " "\n" > sort
+echo {a..z}{a..z} -not {o}{o} | tr " " "\n" > sort | head -n 64
