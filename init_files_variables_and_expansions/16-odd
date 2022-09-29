@@ -1,2 +1,2 @@
 #!/bin/bash
-seq 1 10 | sed -n 'p;n'
+seq 1 10 | sed -n 'p,n'
