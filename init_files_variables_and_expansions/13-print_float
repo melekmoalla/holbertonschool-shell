@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(date +%N)/10000000"
+perl -e "printf('%.2f', $N/100)"
