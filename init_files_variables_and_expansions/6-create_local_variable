@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(best=schoo)l
+echo $("best=schoo")l
