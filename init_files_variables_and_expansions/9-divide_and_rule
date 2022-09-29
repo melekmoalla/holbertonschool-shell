@@ -1,2 +1,2 @@
 #!/bin/bash
-ans=$((DIVIDE / DIVIDE))
+echo $((DIVIDE / DIVIDE))
