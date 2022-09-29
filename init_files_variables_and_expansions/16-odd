@@ -1,2 +1,2 @@
 #!/bin/bash
-seq 1 10 | sed -n 'p,n'
+for odd in {1..99..2} | do echo "${odd}" | done
