@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print $1}' *
+seq 1 10 | sed -n 'p;n'
