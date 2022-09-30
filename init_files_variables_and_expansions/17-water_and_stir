@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "253016754" > bestchol
+printf '%o\n' 253016754 | tr 01234567 belhnort
