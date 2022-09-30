@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{ print $1}' /var/log | sort | uniq -c | sort -nr | head -n 10
+cat * | sort |cut -f1 | uniq -c | sort -g -r | tr -s " " | head -n 11 | cut -f 3
