@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((5#12421231313+5#30012402303)) | tr 01234567 belhnort
+echo (5#$WATER)+(5#$STI)R stir| tr 01234567 belhnort
